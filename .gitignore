@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Raw and preprocessed audio data
+speech_commands_v0.02/
+processed/
+
+# Training outputs and logs
+output/
+runs/
+**/runs/
+lora-gpt2-keyword/runs/
+
+# Large full-model weights
+custom_gpt2_model/model.safetensors
+lora-gpt2-hubert-final/model.safetensors
+**/model.safetensors
+
+# Training checkpoint state files
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+**/training_args.bin
+**/trainer_state.json
+
+# OS files
+.DS_Store
+Thumbs.db
+lora-gpt2-keyword/
+
+# Saved model and checkpoint artifacts
+custom_gpt2_model/
+go_checkpoint-5500/
+lora-gpt2-hubert-final/
+lora-gpt2-keyword/

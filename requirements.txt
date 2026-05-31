@@ -1,0 +1,14 @@
+torch
+torchaudio
+transformers
+datasets
+peft
+accelerate
+scikit-learn
+numpy
+matplotlib
+seaborn
+tqdm
+joblib
+jupyter
+ipykernel
